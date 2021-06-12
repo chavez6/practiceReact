@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 const Button = ({color, text, onClick}) =>{
 
     return (
-        <button onClick={onClick} style={btnStyle}>{text}</button>
+        <button onClick={onClick} >{text}</button>
     );
 };
 
@@ -17,8 +17,8 @@ Button.propTypes = {
     onCLick: PropTypes.func,
 };
 
-const btnStyle = {
-    background: 'orange'
-};
+// const btnStyle = {
+//     background: 'orange'
+// };
 
 export default Button
